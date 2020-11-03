@@ -1,0 +1,8 @@
+{
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    { "lauguage": "typescript", "autoFix": true },
+    { "lauguage": "typescriptreact", "autoFix": true }
+  ]
+}
