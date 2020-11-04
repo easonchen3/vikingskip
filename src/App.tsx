@@ -5,10 +5,11 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <Button>Hello</Button>
-        <Button btnType={ButtonType.Primary} size={ButtonSize.Large}>
+        <Button disable size={ButtonSize.Small}>
           Hello
         </Button>
+        <Button btnType={ButtonType.Primary}>Hello</Button>
+        <Button btnType={ButtonType.Danger}>Hello</Button>
         <Button btnType={ButtonType.Link} href="www.baidu.com">
           百度
         </Button>
