@@ -5,12 +5,25 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
+        <Button
+          autoFocus
+          onClick={(e) => {
+            e.preventDefault();
+            alert(123);
+          }}
+        >
+          Hello
+        </Button>
         <Button disable size={ButtonSize.Small}>
           Hello
         </Button>
         <Button btnType={ButtonType.Primary}>Hello</Button>
         <Button btnType={ButtonType.Danger}>Hello</Button>
-        <Button btnType={ButtonType.Link} href="www.baidu.com">
+        <Button
+          btnType={ButtonType.Link}
+          href="http://www.baidu.com"
+          target="_blank"
+        >
           百度
         </Button>
         <a
